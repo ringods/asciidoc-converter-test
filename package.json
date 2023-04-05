@@ -1,0 +1,35 @@
+{
+  "name": "asciidoc-converter-test",
+  "version": "1.0.0",
+  "description": "Create a custom Asciidoc converter returning React component tree",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist/",
+    "build": "npm run clean && vite build",
+    "run": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringods/asciidoc-converter-test.git"
+  },
+  "keywords": [
+    "asciidoc",
+    "react"
+  ],
+  "author": "Ringo De Smet <ringo@de-smet.name>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ringods/asciidoc-converter-test/issues"
+  },
+  "homepage": "https://github.com/ringods/asciidoc-converter-test#readme",
+  "dependencies": {
+    "asciidoctor": "^2.2.6",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "rimraf": "^4.4.1",
+    "vite": "^4.2.1"
+  }
+}
